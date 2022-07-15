@@ -1,0 +1,157 @@
+/*importación de fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200;1,800;1,900&display=swap');
+
+/*reseteo del html*/
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  margin-top: 5px;
+  background:rgb(6, 146, 151);
+  text-align: center;
+  text-size-adjust:initial;
+  height: 20vw;
+}
+h1{
+  font-size: 3em;
+}
+h3{
+  font-size: 1.5em;
+  color: antiquewhite;
+}
+
+.navmenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-color: rgb(124, 121, 121);
+  font-size: 1em;
+}
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50vw;
+}
+
+.link_menu{
+  text-decoration: none;
+  color: black;
+}
+.item_menu{
+  list-style-type: none;
+}
+
+footer{
+  background:rgb(6, 146, 151);
+  text-align: center;
+  color: rgb(244, 244, 248);
+}
+
+.rounded{
+    border-radius: 30%;
+    padding-top: 2mm;
+    padding-left: 2mm;
+}
+
+#logo{
+  float: left;
+   width: 150px;
+   height: 150px;
+}
+
+#clima{
+  float: right; 
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+}
+
+.publicidad{
+  width: 300px;
+  height: 300px;
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.reproductor{
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px;
+  
+}
+
+.parrafo{
+  display: flex;
+  width: 500px;
+  justify-content: right;
+  align-items: center;
+  padding: 15px;
+}
+
+.sec_noti{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.art_noticia{
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  padding: 20px;
+}
+
+.art_img_noticia{
+  display: flex;
+  width: 200px;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.art_ficha{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.art_disco{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.imagen_art_qs{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-direction: row;
+  padding: 90px;
+}
+.texto_art_qs{
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  padding: 20px;
+}
